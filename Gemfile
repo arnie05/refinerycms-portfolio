@@ -5,8 +5,9 @@ gemspec
 
 gem "refinerycms", :git => 'git://github.com/refinery/refinerycms.git', :branch => '2-1-stable'
 
-
 gem 'refinerycms-i18n', '~> 2.1.0'
+
+gem 'acts_as_indexed'
 
 
 # Refinery/Rails should pull in the proper versions of these
